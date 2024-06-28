@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "koliko-Regular";
+  src: local("koliko-Regular"),
+    url("./assets/koliko-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LexendZetta-Medium";
+  src: local("LexendZetta-Medium"),
+    url("./assets/LexendZetta-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MANIFESTO";
+  src: local("MANIFESTO") url("./assets/MANIFESTO.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TuskerGrotesk-3500Medium";
+  src: local("TuskerGrotesk-3500Medium")
+    url("./assets/TuskerGrotesk-3500Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "VarelaRound-Regular";
+  src: local("VarelaRound-Regular") url("./assets/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+  font-family: "orkney-medium";
+  src: local("orkney-medium") url("./assets/orkney-medium.otf");
+}
+
+:root {
+  --primaryColor: #1a936f;
+  --secondaryColor: #114b5f;
+  --lightPrimaryColor: #a1be95;
+  --lighterPrimaryColor: #c6dabf;
+  --darkerPrimaryColor: #0f8f68;
+  --darkerSecondaryColor: #041c24;
+  --whiteColor: #f1f1f1;
+  --blackColor: rgb(78, 90, 78);
+  --primaryFont: "koliko-Regular";
+  --secondaryFont: "MANIFESTO";
+  --thirdFont: "LexendZetta-Medium";
+  --fourthFont: "TuskerGrotesk-3500Medium";
+  --fifthFont: "VarelaRound-Regular";
+  --sixFont: "orkney-medium";
+}
+
+body {
+  overflow-x: hidden;
+  background: url("/backgroundsombre.png");
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}

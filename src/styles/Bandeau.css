@@ -1,0 +1,55 @@
+.parallax {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax span {
+  display: block;
+}
+
+.bandeau {
+  background-color: var(--secondaryColor);
+  width: 200%;
+  overflow-y: hidden;
+  padding-bottom: 2.5rem;
+}
+
+.articleBandeau1 {
+  display: flex;
+  font-family: var(--fourthFont);
+  font-size: 6rem;
+  overflow-x: hidden;
+  margin-bottom: -2.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.articleBandeau4 {
+  padding-bottom: 10rem;
+}
+
+.développeurDev,
+.développeurCréatif,
+.développeurPassionné,
+.développeurDynamique {
+  color: var(--primaryColor);
+  left: calc(50% + 130px);
+  line-height: 1.4;
+}
+
+.développeurDev2,
+.développeurCréatif2,
+.développeurPassionné2,
+.développeurDynamique2 {
+  color: var(--whiteColor);
+  left: calc(50% + 130px);
+  line-height: 1.4;
+}

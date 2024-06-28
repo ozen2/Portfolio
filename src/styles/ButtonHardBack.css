@@ -1,0 +1,39 @@
+.buttonDiv2 {
+  background-color: var(--darkerSecondaryColor);
+  display: flex;
+  gap: 0.5rem;
+  font-family: Poppins;
+  font-size: 1.7rem;
+  color: var(--lighterPrimaryColor);
+  border: solid var(--secondaryColor);
+  border-radius: 1.8rem;
+  padding: 1.5rem;
+  height: 6rem;
+  width: 18rem;
+}
+.buttonContainer2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 2rem;
+}
+
+.imgButton2 {
+  width: 3rem;
+  align-self: center;
+}
+.textButton2 {
+  align-self: center;
+}
+
+.buttonDiv2 {
+  background-color: var();
+}
+
+.buttonDiv2:hover {
+  background-color: var(--secondaryColor);
+  box-shadow: rgba(0, 0, 0, 0.353) 0 0.5rem 10px;
+}

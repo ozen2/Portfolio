@@ -1,0 +1,28 @@
+nav {
+  margin-top: -1rem;
+  z-index: 999;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--lighterPrimaryColor);
+  width: 45rem;
+  padding-top: 1rem;
+  padding-bottom: 0.7rem;
+  align-items: center;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondaryColor);
+  font-family: var(--sixFont);
+  font-size: 1.1rem;
+  font-weight: 800;
+  transition: all ease-in-out 200ms;
+}
+
+.linkNav:hover {
+  color: var(--primaryColor);
+}
