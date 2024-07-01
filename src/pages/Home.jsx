@@ -1,7 +1,7 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import { useEffect } from "react";
 import Lottie from "lottie-react";
-import scrollAnimation from "../assets/Animation-17164068701489.json";
+import scrollAnimation from "../../public/assets/Animation-17164068701489.json";
 import "../styles/Home.css";
 import Bandeau from "../components/Bandeau";
 import HardSkills from "../components/HardSkills";
