@@ -52,6 +52,7 @@ body {
   overflow-x: hidden;
   background: url("/backgroundsombre.png");
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 * {
