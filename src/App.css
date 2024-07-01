@@ -1,34 +1,31 @@
 @font-face {
   font-family: "koliko-Regular";
-  src: local("koliko-Regular"),
-    url("./assets/koliko-Regular.ttf") format("truetype");
+  src: url("./assets/koliko-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "LexendZetta-Medium";
-  src: local("LexendZetta-Medium"),
-    url("./assets/LexendZetta-Medium.ttf") format("truetype");
+  src: url("./assets/LexendZetta-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "MANIFESTO";
-  src: local("MANIFESTO") url("./assets/MANIFESTO.ttf") format("truetype");
+  src: url("./assets/MANIFESTO.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "TuskerGrotesk-3500Medium";
-  src: local("TuskerGrotesk-3500Medium")
-    url("./assets/TuskerGrotesk-3500Medium.ttf") format("truetype");
+  src: url("./assets/TuskerGrotesk-3500Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "VarelaRound-Regular";
-  src: local("VarelaRound-Regular") url("./assets/VarelaRound-Regular.ttf");
+  src: url("./assets/VarelaRound-Regular.ttf");
 }
 
 @font-face {
   font-family: "orkney-medium";
-  src: local("orkney-medium") url("./assets/orkney-medium.otf");
+  src: url("./assets/orkney-medium.otf");
 }
 
 :root {
